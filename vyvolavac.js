@@ -36,10 +36,24 @@ function tahnoutJmeno() {
 
     // Generujeme náhodný index
 
+    let vyherniIndex = Math.floor(Math.random() * jmena.length);
+    
     // Získáme výherní jméno na patřičném indexu
 
-    // Vyřadíme vylosované jméno z osudí
+    let vyherniJmeno = jmena[vyherniIndex];
+
+    // Vyřadíme vylosované jméno z osudí - odstraňujeme jeden prvek z výherního indexu
+
+    jmena.splice(vyherniIndex, 1);
 
     // Výherní jméno si uložíme do pole k ostatním výherním
     
+    tazenaJmena.push(vyherniJmeno);
+
+    let vyherce = document.querySelector('#vyherka');
+    vyherce.textContent = vyherniJmeno;
+
+    let seznam = document.querySelector('#seznam');
+    seznam.textContent = tazenaJmena;
+
 }
