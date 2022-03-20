@@ -57,3 +57,6 @@ function tahnoutJmeno() {
     seznam.textContent = tazenaJmena;
 
 }
+
+
+//Bonusové cvičení - work in progress
