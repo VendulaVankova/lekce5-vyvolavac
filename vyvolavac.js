@@ -60,3 +60,11 @@ function tahnoutJmeno() {
 
 
 //Bonusové cvičení - work in progress
+
+//New Branch Creation - develop-2022
+
+//Přidávej vyvolaná jména na začátek “Předchozí oběti:”.
+
+//Přidej počítadlo, kolik se vybralo holek.
+
+//Přidej tlačítko na restartování vyvolávače.

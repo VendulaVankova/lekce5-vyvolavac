@@ -79,3 +79,9 @@ h2 {
 	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
 	transform: translateY(3px);
 }
+
+.restart {
+	margin-top: 100px;
+	margin-bottom: 50px;
+	background: #082dff linear-gradient(to top, #4a08ff 0%, #c599ff 100%);
+}
